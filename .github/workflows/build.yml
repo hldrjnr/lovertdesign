@@ -1,0 +1,107 @@
+name: Build
+
+# Compila o executável do Lovert Design para Linux e Windows.
+# Pode ser executado manualmente em: Actions → Build → Run workflow.
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+# Necessário para o tauri-action criar releases em tags e para o cache.
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build (${{ matrix.platform }})
+    runs-on: ${{ matrix.platform }}
+    strategy:
+      # Se uma plataforma falhar, a outra continua e publica os artefactos.
+      fail-fast: false
+      matrix:
+        include:
+          - platform: ubuntu-22.04
+            bundles: deb,appimage
+            exe: src-tauri/target/release/lovert-design
+          - platform: windows-latest
+            bundles: nsis
+            exe: src-tauri/target/release/lovert-design.exe
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # ---------------------------------------------------------------------
+      # Dependências de sistema (apenas Linux)
+      # ---------------------------------------------------------------------
+      - name: Instalar dependências Linux (Tauri)
+        if: matrix.platform == 'ubuntu-22.04'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libwebkit2gtk-4.1-dev \
+            build-essential \
+            curl \
+            wget \
+            file \
+            libxdo-dev \
+            libssl-dev \
+            libayatana-appindicator3-dev \
+            librsvg2-dev \
+            patchelf \
+            libfontconfig1-dev \
+            libfreetype6-dev
+
+      # ---------------------------------------------------------------------
+      # Toolchain
+      # ---------------------------------------------------------------------
+      - name: Instalar pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - name: Instalar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Instalar Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache do Rust
+        uses: swatinem/rust-cache@v2
+        with:
+          workspaces: src-tauri -> target
+
+      - name: Instalar dependências Node
+        run: pnpm install --no-frozen-lockfile
+
+      # ---------------------------------------------------------------------
+      # Build
+      # Os *secrets* são injetados como variáveis de ambiente e ficam
+      # embutidos no binário em tempo de compilação (nunca no repositório).
+      # ---------------------------------------------------------------------
+      - name: Compilar com Tauri
+        uses: tauri-apps/tauri-action@v0
+        env:
+          GUMROAD_PRODUCT_ID: ${{ secrets.GUMROAD_PRODUCT_ID }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          LICENSE_XOR_KEY: ${{ secrets.LICENSE_XOR_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          args: --bundles ${{ matrix.bundles }}
+
+      # ---------------------------------------------------------------------
+      # Artefactos
+      # ---------------------------------------------------------------------
+      - name: Publicar executável e instaladores
+        uses: actions/upload-artifact@v4
+        with:
+          name: lovert-design-${{ matrix.platform }}
+          path: |
+            ${{ matrix.exe }}
+            src-tauri/target/release/bundle/**
+          if-no-files-found: warn

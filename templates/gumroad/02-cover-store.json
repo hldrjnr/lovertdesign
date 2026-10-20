@@ -1,0 +1,101 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "Gumroad — Cover / Banner",
+  "category": "Gumroad",
+  "icon": "🖼️",
+  "theme": "Marketplace — Store Cover",
+  "template": {
+    "id": "gumroad-cover",
+    "name": "Gumroad Cover",
+    "width": 1280,
+    "height": 720,
+    "platform": "Gumroad"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(135deg, #0f172a 0%, #1a1a2e 50%, #0f3460 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "store-accent",
+      "vector": {
+        "shape": "circle",
+        "color": "#3B82F6",
+        "fillGradient": "radial-gradient(circle, #3B82F630, transparent)",
+        "strokeWidth": 0,
+        "filled": true
+      },
+      "x": 0.1,
+      "y": 0.1,
+      "width": 0.7,
+      "height": 0.7,
+      "opacity": 0.15,
+      "blur": 6,
+      "zIndex": 0
+    },
+    {
+      "type": "text",
+      "text": "3D ASSET STORE",
+      "font": "Impact",
+      "fontSize": 95,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #60A5FA 0%, #FFFFFF 100%)",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 6,
+      "textTransform": "uppercase",
+      "lineHeight": 0.88,
+      "x": 0.5,
+      "y": 0.35,
+      "width": 0.7,
+      "height": 0.14,
+      "shadow": { "color": "#3B82F6", "blur": 20, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#0f172a", "width": 3 },
+      "zIndex": 4
+    },
+    {
+      "type": "text",
+      "text": "Game-Ready Models • Blender • FBX • GLB",
+      "font": "Arial",
+      "fontSize": 30,
+      "color": "#94A3B8",
+      "textAlign": "center",
+      "fontWeight": 500,
+      "letterSpacing": 4,
+      "x": 0.5,
+      "y": 0.55,
+      "width": 0.65,
+      "height": 0.05,
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "Weekly drops • Follow for updates",
+      "font": "Arial",
+      "fontSize": 24,
+      "color": "#64748B",
+      "textAlign": "center",
+      "fontWeight": 400,
+      "letterSpacing": 3,
+      "x": 0.5,
+      "y": 0.63,
+      "width": 0.5,
+      "height": 0.04,
+      "zIndex": 2
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1.02,
+    "contrast": 1.05,
+    "saturation": 1.08,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

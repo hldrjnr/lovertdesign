@@ -1,0 +1,112 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "Post — 3D Art / WIP Share",
+  "category": "Instagram",
+  "icon": "🎨",
+  "theme": "Portfolio — 3D Art",
+  "template": {
+    "id": "instagram-post",
+    "name": "Instagram Post",
+    "width": 1080,
+    "height": 1080,
+    "platform": "Instagram"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #1a1a2e 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "card-bg",
+      "vector": {
+        "shape": "rounded-rect",
+        "color": "#0f172a",
+        "fillGradient": "linear-gradient(135deg, #1e293b, #0f172a)",
+        "strokeColor": "#334155",
+        "strokeWidth": 2,
+        "filled": true,
+        "cornerRadius": 30
+      },
+      "x": 0.08,
+      "y": 0.25,
+      "width": 0.84,
+      "height": 0.58,
+      "opacity": 0.9,
+      "zIndex": 0
+    },
+    {
+      "type": "text",
+      "text": "3D ART",
+      "font": "Impact",
+      "fontSize": 100,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #38BDF8 0%, #818CF8 100%)",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 8,
+      "textTransform": "uppercase",
+      "lineHeight": 0.9,
+      "x": 0.5,
+      "y": 0.38,
+      "width": 0.7,
+      "height": 0.12,
+      "shadow": { "color": "#38BDF8", "blur": 18, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#0f172a", "width": 3 },
+      "zIndex": 4
+    },
+    {
+      "type": "text",
+      "text": "Blender Cycles Render",
+      "font": "Arial",
+      "fontSize": 30,
+      "color": "#94A3B8",
+      "textAlign": "center",
+      "fontWeight": 500,
+      "letterSpacing": 5,
+      "textTransform": "uppercase",
+      "x": 0.5,
+      "y": 0.54,
+      "width": 0.6,
+      "height": 0.05,
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "Work in Progress #wip",
+      "font": "Arial",
+      "fontSize": 26,
+      "color": "#64748B",
+      "textAlign": "center",
+      "fontWeight": 400,
+      "letterSpacing": 3,
+      "x": 0.5,
+      "y": 0.63,
+      "width": 0.5,
+      "height": 0.04,
+      "zIndex": 2
+    },
+    {
+      "type": "element",
+      "elementContent": "✨",
+      "x": 0.28,
+      "y": 0.2,
+      "fontSize": 50,
+      "opacity": 0.5,
+      "zIndex": 1
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1.05,
+    "contrast": 1.05,
+    "saturation": 1.08,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

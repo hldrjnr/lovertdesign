@@ -1,0 +1,102 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "Gumroad — Environment Bundle",
+  "category": "Gumroad",
+  "icon": "🏠",
+  "theme": "Marketplace — Environment Pack",
+  "template": {
+    "id": "gumroad-cover",
+    "name": "Gumroad Cover",
+    "width": 1280,
+    "height": 720,
+    "platform": "Gumroad"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f3460 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "env-glow",
+      "vector": {
+        "shape": "circle",
+        "color": "#10B981",
+        "fillGradient": "radial-gradient(circle, #10B98120, transparent)",
+        "strokeWidth": 0,
+        "filled": true
+      },
+      "x": 0.1,
+      "y": 0.1,
+      "width": 0.5,
+      "height": 0.5,
+      "opacity": 0.15,
+      "blur": 8,
+      "zIndex": 0
+    },
+    {
+      "type": "text",
+      "text": "ENVIRONMENT",
+      "font": "Impact",
+      "fontSize": 95,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #10B981 0%, #059669 100%)",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 6,
+      "textTransform": "uppercase",
+      "lineHeight": 0.88,
+      "x": 0.5,
+      "y": 0.35,
+      "width": 0.7,
+      "height": 0.14,
+      "shadow": { "color": "#10B981", "blur": 22, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#0f172a", "width": 4 },
+      "zIndex": 4
+    },
+    {
+      "type": "text",
+      "text": "BUNDLE",
+      "font": "Arial",
+      "fontSize": 40,
+      "color": "#10B981",
+      "textAlign": "center",
+      "fontWeight": 800,
+      "letterSpacing": 14,
+      "textTransform": "uppercase",
+      "x": 0.5,
+      "y": 0.52,
+      "width": 0.4,
+      "height": 0.05,
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "3 Worlds • 500+ Assets • PBR Materials",
+      "font": "Arial",
+      "fontSize": 26,
+      "color": "#94A3B8",
+      "textAlign": "center",
+      "fontWeight": 500,
+      "letterSpacing": 4,
+      "x": 0.5,
+      "y": 0.62,
+      "width": 0.6,
+      "height": 0.04,
+      "zIndex": 2
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1.02,
+    "contrast": 1.05,
+    "saturation": 1.08,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

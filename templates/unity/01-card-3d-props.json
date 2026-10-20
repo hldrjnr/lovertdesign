@@ -1,0 +1,69 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "Unity AS — Simple Card",
+  "category": "Unity Asset Store",
+  "icon": "🎮",
+  "theme": "AS — Card / Thumbnail",
+  "template": {
+    "id": "unity-as-card",
+    "name": "Unity Card",
+    "width": 420,
+    "height": 280,
+    "platform": "Unity Asset Store"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "text",
+      "text": "3D PROPS",
+      "font": "Impact",
+      "fontSize": 52,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #60A5FA 0%, #FFFFFF 100%)",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 4,
+      "textTransform": "uppercase",
+      "lineHeight": 0.9,
+      "x": 0.5,
+      "y": 0.4,
+      "width": 0.8,
+      "height": 0.25,
+      "shadow": { "color": "#1D4ED8", "blur": 10, "offsetX": 0, "offsetY": 2 },
+      "outline": { "color": "#0a0a0a", "width": 2 },
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "LOW POLY PACK",
+      "font": "Arial",
+      "fontSize": 18,
+      "color": "#94A3B8",
+      "textAlign": "center",
+      "fontWeight": 700,
+      "letterSpacing": 5,
+      "textTransform": "uppercase",
+      "x": 0.5,
+      "y": 0.68,
+      "width": 0.7,
+      "height": 0.1,
+      "zIndex": 2
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1.05,
+    "contrast": 1.08,
+    "saturation": 1.1,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

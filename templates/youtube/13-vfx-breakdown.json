@@ -1,0 +1,111 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "YouTube — VFX Breakdown",
+  "category": "YouTube",
+  "icon": "💥",
+  "theme": "Creative — VFX / Effects",
+  "template": {
+    "id": "youtube",
+    "name": "YouTube",
+    "width": 1920,
+    "height": 1080,
+    "platform": "YouTube"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(160deg, #0a0a0a 0%, #1a0a2e 35%, #2d0033 65%, #0a0a0a 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "explosion-glow",
+      "vector": {
+        "shape": "circle",
+        "color": "#F43F5E",
+        "fillGradient": "radial-gradient(circle, #F43F5E30, transparent)",
+        "strokeWidth": 0,
+        "filled": true
+      },
+      "x": 0.55,
+      "y": 0.2,
+      "width": 0.4,
+      "height": 0.4,
+      "opacity": 0.25,
+      "blur": 10,
+      "zIndex": 0
+    },
+    {
+      "type": "text",
+      "text": "VFX",
+      "font": "Impact",
+      "fontSize": 160,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #F43F5E 0%, #E11D48 50%, #9F1239 100%)",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 15,
+      "textTransform": "uppercase",
+      "lineHeight": 0.85,
+      "x": 0.5,
+      "y": 0.3,
+      "width": 0.5,
+      "height": 0.2,
+      "shadow": { "color": "#F43F5E", "blur": 30, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#0a0a0a", "width": 6 },
+      "zIndex": 4
+    },
+    {
+      "type": "text",
+      "text": "BREAKDOWN",
+      "font": "Arial",
+      "fontSize": 36,
+      "color": "#F43F5E",
+      "textAlign": "center",
+      "fontWeight": 800,
+      "letterSpacing": 12,
+      "textTransform": "uppercase",
+      "x": 0.5,
+      "y": 0.52,
+      "width": 0.5,
+      "height": 0.04,
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "Particle Systems • Shaders • Compositing",
+      "font": "Arial",
+      "fontSize": 24,
+      "color": "#64748B",
+      "textAlign": "center",
+      "fontWeight": 400,
+      "letterSpacing": 3,
+      "x": 0.5,
+      "y": 0.6,
+      "width": 0.55,
+      "height": 0.03,
+      "zIndex": 2
+    },
+    {
+      "type": "element",
+      "elementContent": "💥",
+      "x": 0.15,
+      "y": 0.15,
+      "fontSize": 70,
+      "opacity": 0.5,
+      "zIndex": 1
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1.05,
+    "contrast": 1.12,
+    "saturation": 1.2,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

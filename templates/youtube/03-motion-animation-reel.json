@@ -1,0 +1,112 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "Motion — 3D Animation Reel",
+  "category": "YouTube",
+  "icon": "🎞️",
+  "theme": "Animation — Reel / Demo",
+  "template": {
+    "id": "youtube",
+    "name": "YouTube",
+    "width": 1920,
+    "height": 1080,
+    "platform": "YouTube"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(160deg, #0c0c1d 0%, #1a1025 50%, #0c0c1d 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "orbit-ring",
+      "vector": {
+        "shape": "circle",
+        "color": "#A855F7",
+        "strokeColor": "#A855F7",
+        "strokeWidth": 1,
+        "filled": false,
+        "strokeDash": "dashed"
+      },
+      "x": 0.7,
+      "y": 0.3,
+      "width": 0.45,
+      "height": 0.43,
+      "opacity": 0.3,
+      "zIndex": 0
+    },
+    {
+      "type": "text",
+      "text": "ANIMATION REEL",
+      "font": "Impact",
+      "fontSize": 120,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #FFFFFF 0%, #D8B4FE 40%, #A855F7 100%)",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 8,
+      "textTransform": "uppercase",
+      "lineHeight": 0.85,
+      "x": 0.28,
+      "y": 0.3,
+      "width": 0.55,
+      "height": 0.16,
+      "shadow": { "color": "#A855F7", "blur": 22, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#0c0c1d", "width": 5 },
+      "zIndex": 4
+    },
+    {
+      "type": "text",
+      "text": "CHARACTER • RIG • SIMULATION",
+      "font": "Arial",
+      "fontSize": 30,
+      "color": "#A855F7",
+      "textAlign": "center",
+      "fontWeight": 700,
+      "letterSpacing": 8,
+      "textTransform": "uppercase",
+      "x": 0.3,
+      "y": 0.55,
+      "width": 0.52,
+      "height": 0.05,
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "2025 SHOWREEL",
+      "font": "Arial",
+      "fontSize": 28,
+      "color": "#C084FC",
+      "textAlign": "center",
+      "fontWeight": 600,
+      "letterSpacing": 12,
+      "textTransform": "uppercase",
+      "x": 0.3,
+      "y": 0.64,
+      "width": 0.4,
+      "height": 0.04,
+      "zIndex": 2
+    },
+    {
+      "type": "element",
+      "elementContent": "▶️",
+      "x": 0.82,
+      "y": 0.25,
+      "fontSize": 90,
+      "opacity": 0.7,
+      "zIndex": 1
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1,
+    "contrast": 1.08,
+    "saturation": 1.15,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

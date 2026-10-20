@@ -1,0 +1,117 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "YouTube — Indie Game Dev",
+  "category": "YouTube",
+  "icon": "🎮",
+  "theme": "Gaming — Indie Dev",
+  "template": {
+    "id": "youtube",
+    "name": "YouTube",
+    "width": 1920,
+    "height": 1080,
+    "platform": "YouTube"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(160deg, #0a0a0a 0%, #1a0a2e 35%, #2d0033 65%, #0a0a0a 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "dev-glow",
+      "vector": {
+        "shape": "circle",
+        "color": "#EC4899",
+        "fillGradient": "radial-gradient(circle, #EC489920, transparent)",
+        "strokeWidth": 0,
+        "filled": true
+      },
+      "x": 0.65,
+      "y": 0.15,
+      "width": 0.35,
+      "height": 0.35,
+      "opacity": 0.2,
+      "blur": 8,
+      "zIndex": 0
+    },
+    {
+      "type": "text",
+      "text": "INDIE",
+      "font": "Impact",
+      "fontSize": 80,
+      "color": "#EC4899",
+      "textAlign": "left",
+      "fontWeight": 900,
+      "letterSpacing": 6,
+      "textTransform": "uppercase",
+      "x": 0.06,
+      "y": 0.25,
+      "width": 0.3,
+      "height": 0.1,
+      "zIndex": 4
+    },
+    {
+      "type": "text",
+      "text": "GAME DEV",
+      "font": "Impact",
+      "fontSize": 130,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #FFFFFF 0%, #F472B6 100%)",
+      "textAlign": "left",
+      "fontWeight": 900,
+      "letterSpacing": 6,
+      "textTransform": "uppercase",
+      "lineHeight": 0.88,
+      "x": 0.06,
+      "y": 0.35,
+      "width": 0.55,
+      "height": 0.16,
+      "shadow": { "color": "#EC4899", "blur": 22, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#0a0a0a", "width": 5 },
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "Making a Game Solo",
+      "font": "Arial",
+      "fontSize": 34,
+      "color": "#94A3B8",
+      "textAlign": "left",
+      "fontWeight": 600,
+      "letterSpacing": 4,
+      "x": 0.06,
+      "y": 0.55,
+      "width": 0.45,
+      "height": 0.04,
+      "zIndex": 2
+    },
+    {
+      "type": "text",
+      "text": "Month 6 Update • Progress Report",
+      "font": "Arial",
+      "fontSize": 24,
+      "color": "#64748B",
+      "textAlign": "left",
+      "fontWeight": 400,
+      "letterSpacing": 3,
+      "x": 0.06,
+      "y": 0.62,
+      "width": 0.4,
+      "height": 0.03,
+      "zIndex": 1
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1.05,
+    "contrast": 1.1,
+    "saturation": 1.15,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

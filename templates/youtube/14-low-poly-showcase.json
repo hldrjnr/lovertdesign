@@ -1,0 +1,121 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "YouTube — Low Poly Showcase",
+  "category": "YouTube",
+  "icon": "🔷",
+  "theme": "3D / Low Poly — Showcase",
+  "template": {
+    "id": "youtube",
+    "name": "YouTube",
+    "width": 1920,
+    "height": 1080,
+    "platform": "YouTube"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(160deg, #0f172a 0%, #1e293b 40%, #0f3460 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "lowpoly-tri1",
+      "vector": {
+        "shape": "triangle",
+        "color": "#38BDF8",
+        "fillGradient": "linear-gradient(135deg, #38BDF820, #0EA5E910)",
+        "strokeColor": "#38BDF8",
+        "strokeWidth": 1,
+        "filled": true
+      },
+      "x": 0.7,
+      "y": 0.12,
+      "width": 0.2,
+      "height": 0.35,
+      "opacity": 0.2,
+      "rotation": 15,
+      "zIndex": 0
+    },
+    {
+      "type": "vector",
+      "id": "lowpoly-tri2",
+      "vector": {
+        "shape": "triangle",
+        "color": "#0EA5E9",
+        "fillGradient": "linear-gradient(135deg, #0EA5E920, #0284C710)",
+        "strokeColor": "#0EA5E9",
+        "strokeWidth": 1,
+        "filled": true
+      },
+      "x": 0.78,
+      "y": 0.25,
+      "width": 0.18,
+      "height": 0.3,
+      "opacity": 0.15,
+      "rotation": -10,
+      "zIndex": 0
+    },
+    {
+      "type": "text",
+      "text": "LOW POLY",
+      "font": "Impact",
+      "fontSize": 130,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #38BDF8 0%, #0EA5E9 50%, #0284C7 100%)",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 10,
+      "textTransform": "uppercase",
+      "lineHeight": 0.88,
+      "x": 0.5,
+      "y": 0.32,
+      "width": 0.65,
+      "height": 0.16,
+      "shadow": { "color": "#0EA5E9", "blur": 26, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#0f172a", "width": 5 },
+      "zIndex": 4
+    },
+    {
+      "type": "text",
+      "text": "Environment Design Tutorial",
+      "font": "Arial",
+      "fontSize": 32,
+      "color": "#94A3B8",
+      "textAlign": "center",
+      "fontWeight": 600,
+      "letterSpacing": 5,
+      "x": 0.5,
+      "y": 0.52,
+      "width": 0.55,
+      "height": 0.04,
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "Blender • Stylized • Game Ready",
+      "font": "Arial",
+      "fontSize": 24,
+      "color": "#64748B",
+      "textAlign": "center",
+      "fontWeight": 400,
+      "letterSpacing": 4,
+      "x": 0.5,
+      "y": 0.6,
+      "width": 0.5,
+      "height": 0.03,
+      "zIndex": 2
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1.05,
+    "contrast": 1.08,
+    "saturation": 1.1,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

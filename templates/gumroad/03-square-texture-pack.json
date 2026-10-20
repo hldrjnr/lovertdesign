@@ -1,0 +1,116 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "Gumroad — Product Feature",
+  "category": "Gumroad",
+  "icon": "⭐",
+  "theme": "Marketplace — Feature Showcase",
+  "template": {
+    "id": "gumroad-square",
+    "name": "Gumroad Square",
+    "width": 600,
+    "height": 600,
+    "platform": "Gumroad"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f3460 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "feature-ring",
+      "vector": {
+        "shape": "circle",
+        "color": "#FBBF24",
+        "strokeColor": "#FBBF24",
+        "strokeWidth": 2,
+        "filled": false
+      },
+      "x": 0.15,
+      "y": 0.35,
+      "width": 0.7,
+      "height": 0.55,
+      "opacity": 0.3,
+      "zIndex": 0
+    },
+    {
+      "type": "text",
+      "text": "NEW",
+      "font": "Arial",
+      "fontSize": 22,
+      "color": "#FBBF24",
+      "textAlign": "center",
+      "fontWeight": 800,
+      "letterSpacing": 10,
+      "textTransform": "uppercase",
+      "x": 0.5,
+      "y": 0.15,
+      "width": 0.4,
+      "height": 0.05,
+      "zIndex": 4
+    },
+    {
+      "type": "text",
+      "text": "TEXTURE PACK",
+      "font": "Impact",
+      "fontSize": 58,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #FBBF24 0%, #F59E0B 100%)",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 4,
+      "textTransform": "uppercase",
+      "lineHeight": 0.88,
+      "x": 0.5,
+      "y": 0.5,
+      "width": 0.75,
+      "height": 0.15,
+      "shadow": { "color": "#FBBF24", "blur": 14, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#0f172a", "width": 2 },
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "200 Seamless • PBR • Tileable",
+      "font": "Arial",
+      "fontSize": 20,
+      "color": "#94A3B8",
+      "textAlign": "center",
+      "fontWeight": 600,
+      "letterSpacing": 3,
+      "x": 0.5,
+      "y": 0.68,
+      "width": 0.6,
+      "height": 0.05,
+      "zIndex": 2
+    },
+    {
+      "type": "text",
+      "text": "$4.99",
+      "font": "Arial",
+      "fontSize": 28,
+      "color": "#10B981",
+      "textAlign": "center",
+      "fontWeight": 800,
+      "letterSpacing": 2,
+      "x": 0.5,
+      "y": 0.78,
+      "width": 0.3,
+      "height": 0.05,
+      "zIndex": 1
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1.02,
+    "contrast": 1.05,
+    "saturation": 1.08,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

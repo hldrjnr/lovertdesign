@@ -1,0 +1,116 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "Story — Quick Update / Tease",
+  "category": "Instagram",
+  "icon": "⚡",
+  "theme": "Social — Story Tease",
+  "template": {
+    "id": "instagram-story",
+    "name": "Instagram Story",
+    "width": 1080,
+    "height": 1920,
+    "platform": "Instagram"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(180deg, #1a1a2e 0%, #16213e 40%, #0f3460 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "top-bar",
+      "vector": {
+        "shape": "rounded-rect",
+        "color": "#0f3460",
+        "fillGradient": "linear-gradient(90deg, #1D4ED8, #7C3AED)",
+        "strokeWidth": 0,
+        "filled": true,
+        "cornerRadius": 20
+      },
+      "x": 0.1,
+      "y": 0.05,
+      "width": 0.8,
+      "height": 0.04,
+      "opacity": 0.5,
+      "zIndex": 0
+    },
+    {
+      "type": "text",
+      "text": "NEW DROP",
+      "font": "Impact",
+      "fontSize": 110,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #FBBF24 0%, #F59E0B 100%)",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 6,
+      "textTransform": "uppercase",
+      "lineHeight": 0.85,
+      "x": 0.5,
+      "y": 0.35,
+      "width": 0.7,
+      "height": 0.08,
+      "shadow": { "color": "#FBBF24", "blur": 22, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#1a1a2e", "width": 4 },
+      "zIndex": 4
+    },
+    {
+      "type": "text",
+      "text": "New 3D Model Pack",
+      "font": "Arial",
+      "fontSize": 36,
+      "color": "#94A3B8",
+      "textAlign": "center",
+      "fontWeight": 700,
+      "letterSpacing": 5,
+      "x": 0.5,
+      "y": 0.46,
+      "width": 0.7,
+      "height": 0.04,
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "Available on Gumroad",
+      "font": "Arial",
+      "fontSize": 28,
+      "color": "#64748B",
+      "textAlign": "center",
+      "fontWeight": 500,
+      "letterSpacing": 4,
+      "x": 0.5,
+      "y": 0.52,
+      "width": 0.6,
+      "height": 0.03,
+      "zIndex": 2
+    },
+    {
+      "type": "text",
+      "text": "Link in bio ↑",
+      "font": "Arial",
+      "fontSize": 26,
+      "color": "#475569",
+      "textAlign": "center",
+      "fontWeight": 400,
+      "letterSpacing": 3,
+      "x": 0.5,
+      "y": 0.84,
+      "width": 0.35,
+      "height": 0.03,
+      "zIndex": 1
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1.02,
+    "contrast": 1.05,
+    "saturation": 1.08,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "itch.io — Pixel Art Game",
+  "category": "itch.io",
+  "icon": "👾",
+  "theme": "Indie Game — Pixel Art",
+  "template": {
+    "id": "itchio-square",
+    "name": "itch.io Square",
+    "width": 1280,
+    "height": 720,
+    "platform": "itch.io"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(160deg, #0a0a0a 0%, #1a0a2e 50%, #0a0a0a 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "pixel-border",
+      "vector": {
+        "shape": "rounded-rect",
+        "color": "#FBBF24",
+        "strokeColor": "#FBBF24",
+        "strokeWidth": 3,
+        "filled": false,
+        "cornerRadius": 4,
+        "strokeDash": "solid"
+      },
+      "x": 0.06,
+      "y": 0.08,
+      "width": 0.88,
+      "height": 0.84,
+      "opacity": 0.3,
+      "zIndex": 0
+    },
+    {
+      "type": "text",
+      "text": "PIXEL QUEST",
+      "font": "Impact",
+      "fontSize": 90,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #FBBF24 0%, #F59E0B 100%)",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 8,
+      "textTransform": "uppercase",
+      "lineHeight": 0.88,
+      "x": 0.5,
+      "y": 0.38,
+      "width": 0.7,
+      "height": 0.12,
+      "shadow": { "color": "#FBBF24", "blur": 16, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#0a0a0a", "width": 4 },
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "Retro Adventure • 8-Bit Style",
+      "font": "Arial",
+      "fontSize": 28,
+      "color": "#94A3B8",
+      "textAlign": "center",
+      "fontWeight": 500,
+      "letterSpacing": 4,
+      "x": 0.5,
+      "y": 0.55,
+      "width": 0.55,
+      "height": 0.05,
+      "zIndex": 2
+    },
+    {
+      "type": "element",
+      "elementContent": "👾",
+      "x": 0.15,
+      "y": 0.15,
+      "fontSize": 55,
+      "opacity": 0.5,
+      "zIndex": 1
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1,
+    "contrast": 1.1,
+    "saturation": 1.15,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "LinkedIn — Achievement / Milestone",
+  "category": "LinkedIn",
+  "icon": "🎯",
+  "theme": "Professional — Achievement",
+  "template": {
+    "id": "linkedin-portrait",
+    "name": "LinkedIn Portrait",
+    "width": 1080,
+    "height": 1350,
+    "platform": "LinkedIn"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(160deg, #0f172a 0%, #1e293b 50%, #0f172a 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "milestone-ring",
+      "vector": {
+        "shape": "circle",
+        "color": "#FBBF24",
+        "strokeColor": "#FBBF24",
+        "strokeWidth": 2,
+        "filled": false
+      },
+      "x": 0.2,
+      "y": 0.32,
+      "width": 0.6,
+      "height": 0.48,
+      "opacity": 0.2,
+      "zIndex": 0
+    },
+    {
+      "type": "text",
+      "text": "MILESTONE",
+      "font": "Arial",
+      "fontSize": 36,
+      "color": "#FBBF24",
+      "textAlign": "center",
+      "fontWeight": 800,
+      "letterSpacing": 12,
+      "textTransform": "uppercase",
+      "x": 0.5,
+      "y": 0.15,
+      "width": 0.5,
+      "height": 0.04,
+      "zIndex": 4
+    },
+    {
+      "type": "text",
+      "text": "10K",
+      "font": "Impact",
+      "fontSize": 140,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #FBBF24 0%, #F59E0B 100%)",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 4,
+      "lineHeight": 0.88,
+      "x": 0.5,
+      "y": 0.38,
+      "width": 0.5,
+      "height": 0.14,
+      "shadow": { "color": "#FBBF24", "blur": 24, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#0f172a", "width": 4 },
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "ASSETS SOLD",
+      "font": "Arial",
+      "fontSize": 32,
+      "color": "#94A3B8",
+      "textAlign": "center",
+      "fontWeight": 700,
+      "letterSpacing": 8,
+      "textTransform": "uppercase",
+      "x": 0.5,
+      "y": 0.52,
+      "width": 0.5,
+      "height": 0.04,
+      "zIndex": 2
+    },
+    {
+      "type": "text",
+      "text": "Thank you for the support!",
+      "font": "Arial",
+      "fontSize": 26,
+      "color": "#64748B",
+      "textAlign": "center",
+      "fontWeight": 400,
+      "letterSpacing": 3,
+      "x": 0.5,
+      "y": 0.6,
+      "width": 0.5,
+      "height": 0.04,
+      "zIndex": 1
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1.02,
+    "contrast": 1.05,
+    "saturation": 1.05,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "Story — Progress / Devlog",
+  "category": "Instagram",
+  "icon": "📈",
+  "theme": "Social — Progress Update",
+  "template": {
+    "id": "instagram-story",
+    "name": "Instagram Story",
+    "width": 1080,
+    "height": 1920,
+    "platform": "Instagram"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(180deg, #0a0a0a 0%, #1a0a2e 35%, #2d0033 70%, #0a0a0a 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "text",
+      "text": "DEVLOG",
+      "font": "Arial",
+      "fontSize": 36,
+      "color": "#A855F7",
+      "textAlign": "center",
+      "fontWeight": 800,
+      "letterSpacing": 12,
+      "textTransform": "uppercase",
+      "x": 0.5,
+      "y": 0.12,
+      "width": 0.5,
+      "height": 0.04,
+      "zIndex": 4
+    },
+    {
+      "type": "vector",
+      "id": "progress-bar-bg",
+      "vector": {
+        "shape": "rounded-rect",
+        "color": "#1e293b",
+        "strokeWidth": 0,
+        "filled": true,
+        "cornerRadius": 50
+      },
+      "x": 0.15,
+      "y": 0.2,
+      "width": 0.7,
+      "height": 0.035,
+      "opacity": 0.5,
+      "zIndex": 0
+    },
+    {
+      "type": "vector",
+      "id": "progress-bar-fill",
+      "vector": {
+        "shape": "rounded-rect",
+        "color": "#A855F7",
+        "fillGradient": "linear-gradient(90deg, #A855F7, #EC4899)",
+        "strokeWidth": 0,
+        "filled": true,
+        "cornerRadius": 50
+      },
+      "x": 0.15,
+      "y": 0.2,
+      "width": 0.42,
+      "height": 0.035,
+      "opacity": 0.9,
+      "zIndex": 1
+    },
+    {
+      "type": "text",
+      "text": "60% Complete",
+      "font": "Arial",
+      "fontSize": 24,
+      "color": "#C084FC",
+      "textAlign": "center",
+      "fontWeight": 600,
+      "letterSpacing": 3,
+      "x": 0.5,
+      "y": 0.26,
+      "width": 0.5,
+      "height": 0.03,
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "Week 8",
+      "font": "Impact",
+      "fontSize": 100,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #FFFFFF 0%, #D8B4FE 100%)",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 4,
+      "textTransform": "uppercase",
+      "lineHeight": 0.88,
+      "x": 0.5,
+      "y": 0.42,
+      "width": 0.6,
+      "height": 0.08,
+      "shadow": { "color": "#A855F7", "blur": 18, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#0a0a0a", "width": 3 },
+      "zIndex": 2
+    },
+    {
+      "type": "text",
+      "text": "New AI enemies added",
+      "font": "Arial",
+      "fontSize": 30,
+      "color": "#94A3B8",
+      "textAlign": "center",
+      "fontWeight": 500,
+      "letterSpacing": 3,
+      "x": 0.5,
+      "y": 0.54,
+      "width": 0.6,
+      "height": 0.04,
+      "zIndex": 1
+    },
+    {
+      "type": "text",
+      "text": "Swipe up for full update",
+      "font": "Arial",
+      "fontSize": 24,
+      "color": "#475569",
+      "textAlign": "center",
+      "fontWeight": 400,
+      "letterSpacing": 3,
+      "x": 0.5,
+      "y": 0.84,
+      "width": 0.5,
+      "height": 0.03,
+      "zIndex": 1
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1,
+    "contrast": 1.05,
+    "saturation": 1.1,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

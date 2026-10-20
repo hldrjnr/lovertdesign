@@ -1,0 +1,128 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "YouTube — Blender Beginner",
+  "category": "YouTube",
+  "icon": "🧊",
+  "theme": "3D / Blender — Beginner",
+  "template": {
+    "id": "youtube",
+    "name": "YouTube",
+    "width": 1920,
+    "height": 1080,
+    "platform": "YouTube"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #1a1a2e 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "beginner-badge",
+      "vector": {
+        "shape": "rounded-rect",
+        "color": "#10B981",
+        "fillGradient": "linear-gradient(135deg, #10B981, #059669)",
+        "strokeWidth": 0,
+        "filled": true,
+        "cornerRadius": 12
+      },
+      "x": 0.06,
+      "y": 0.08,
+      "width": 0.14,
+      "height": 0.06,
+      "opacity": 0.95,
+      "zIndex": 1
+    },
+    {
+      "type": "text",
+      "text": "BEGINNER",
+      "font": "Arial",
+      "fontSize": 20,
+      "color": "#FFFFFF",
+      "textAlign": "center",
+      "fontWeight": 800,
+      "letterSpacing": 4,
+      "textTransform": "uppercase",
+      "x": 0.06,
+      "y": 0.08,
+      "width": 0.14,
+      "height": 0.06,
+      "zIndex": 2
+    },
+    {
+      "type": "text",
+      "text": "BLENDER",
+      "font": "Impact",
+      "fontSize": 130,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #F97316 0%, #EA580C 100%)",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 8,
+      "textTransform": "uppercase",
+      "lineHeight": 0.88,
+      "x": 0.5,
+      "y": 0.32,
+      "width": 0.65,
+      "height": 0.16,
+      "shadow": { "color": "#F97316", "blur": 24, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#1a1a2e", "width": 5 },
+      "zIndex": 4
+    },
+    {
+      "type": "text",
+      "text": "YOUR FIRST 3D MODEL",
+      "font": "Arial",
+      "fontSize": 36,
+      "color": "#F97316",
+      "textAlign": "center",
+      "fontWeight": 700,
+      "letterSpacing": 8,
+      "textTransform": "uppercase",
+      "x": 0.5,
+      "y": 0.52,
+      "width": 0.55,
+      "height": 0.04,
+      "shadow": { "color": "#000000", "blur": 6, "offsetX": 0, "offsetY": 2 },
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "No Experience Needed • 2025",
+      "font": "Arial",
+      "fontSize": 26,
+      "color": "#64748B",
+      "textAlign": "center",
+      "fontWeight": 400,
+      "letterSpacing": 4,
+      "x": 0.5,
+      "y": 0.6,
+      "width": 0.5,
+      "height": 0.03,
+      "zIndex": 2
+    },
+    {
+      "type": "element",
+      "elementContent": "🧊",
+      "x": 0.82,
+      "y": 0.82,
+      "fontSize": 60,
+      "opacity": 0.4,
+      "zIndex": 1
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1.05,
+    "contrast": 1.08,
+    "saturation": 1.1,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

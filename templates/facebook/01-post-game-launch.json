@@ -1,0 +1,174 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "Post — Game Launch Announcement",
+  "category": "Facebook",
+  "icon": "🎮",
+  "theme": "Gaming — Launch",
+  "template": {
+    "id": "facebook-post",
+    "name": "Facebook Post",
+    "width": 1200,
+    "height": 630,
+    "platform": "Facebook"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(135deg, #0a0a0a 0%, #1a0a2e 40%, #2d0033 70%, #0a0a0a 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "glow-circle",
+      "vector": {
+        "shape": "circle",
+        "color": "#7C3AED",
+        "fillGradient": "radial-gradient(circle, #7C3AED40, transparent)",
+        "strokeWidth": 0,
+        "filled": true
+      },
+      "x": 0.3,
+      "y": 0.1,
+      "width": 0.5,
+      "height": 0.8,
+      "opacity": 0.2,
+      "blur": 8,
+      "zIndex": 0
+    },
+    {
+      "type": "vector",
+      "id": "corner-accent",
+      "vector": {
+        "shape": "triangle",
+        "color": "#EC4899",
+        "fillGradient": "linear-gradient(135deg, #EC4899, #7C3AED)",
+        "strokeWidth": 0,
+        "filled": true
+      },
+      "x": 0.78,
+      "y": 0.05,
+      "width": 0.18,
+      "height": 0.28,
+      "opacity": 0.15,
+      "rotation": 20,
+      "zIndex": 1
+    },
+    {
+      "type": "vector",
+      "id": "corner-accent2",
+      "vector": {
+        "shape": "triangle",
+        "color": "#3B82F6",
+        "fillGradient": "linear-gradient(135deg, #3B82F6, #7C3AED)",
+        "strokeWidth": 0,
+        "filled": true
+      },
+      "x": 0.02,
+      "y": 0.65,
+      "width": 0.14,
+      "height": 0.24,
+      "opacity": 0.12,
+      "rotation": -15,
+      "zIndex": 1
+    },
+    {
+      "type": "text",
+      "text": "NEW GAME",
+      "font": "Impact",
+      "fontSize": 90,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #FFFFFF 0%, #C084FC 100%)",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 8,
+      "textTransform": "uppercase",
+      "lineHeight": 0.9,
+      "x": 0.15,
+      "y": 0.18,
+      "width": 0.7,
+      "height": 0.18,
+      "shadow": { "color": "#7C3AED", "blur": 30, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#0a0a0a", "width": 4 },
+      "zIndex": 5
+    },
+    {
+      "type": "text",
+      "text": "LAUNCHES NOW",
+      "font": "Impact",
+      "fontSize": 55,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #F472B6 0%, #EC4899 100%)",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 6,
+      "textTransform": "uppercase",
+      "lineHeight": 0.9,
+      "x": 0.15,
+      "y": 0.38,
+      "width": 0.7,
+      "height": 0.12,
+      "shadow": { "color": "#EC4899", "blur": 20, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#0a0a0a", "width": 3 },
+      "zIndex": 4
+    },
+    {
+      "type": "text",
+      "text": "3D • REALISTIC • CROSS-PLATFORM",
+      "font": "Arial",
+      "fontSize": 22,
+      "color": "#A78BFA",
+      "textAlign": "center",
+      "fontWeight": 700,
+      "letterSpacing": 6,
+      "textTransform": "uppercase",
+      "x": 0.15,
+      "y": 0.56,
+      "width": 0.7,
+      "height": 0.05,
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "Available on Steam & Epic Games Store",
+      "font": "Arial",
+      "fontSize": 20,
+      "color": "#6B7280",
+      "textAlign": "center",
+      "fontWeight": 500,
+      "letterSpacing": 3,
+      "x": 0.15,
+      "y": 0.66,
+      "width": 0.7,
+      "height": 0.04,
+      "zIndex": 2
+    },
+    {
+      "type": "vector",
+      "id": "divider",
+      "vector": {
+        "shape": "line",
+        "color": "#7C3AED",
+        "strokeWidth": 2,
+        "filled": false
+      },
+      "x": 0.25,
+      "y": 0.62,
+      "width": 0.5,
+      "height": 0.005,
+      "opacity": 0.5,
+      "zIndex": 2
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1.05,
+    "contrast": 1.1,
+    "saturation": 1.15,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

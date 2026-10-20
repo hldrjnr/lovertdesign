@@ -1,0 +1,112 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "Blender — 3D Showcase",
+  "category": "YouTube",
+  "icon": "🎞️",
+  "theme": "3D / Blender — Render",
+  "template": {
+    "id": "youtube",
+    "name": "YouTube",
+    "width": 1920,
+    "height": 1080,
+    "platform": "YouTube"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(135deg, #0f172a 0%, #1e293b 40%, #334155 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "bg-accent",
+      "vector": {
+        "shape": "circle",
+        "color": "#3B82F6",
+        "fillGradient": "radial-gradient(circle, #3B82F650, transparent)",
+        "strokeWidth": 0,
+        "filled": true
+      },
+      "x": 0.15,
+      "y": 0.15,
+      "width": 0.7,
+      "height": 0.7,
+      "opacity": 0.18,
+      "blur": 6,
+      "zIndex": 0
+    },
+    {
+      "type": "text",
+      "text": "CYCLES RENDER",
+      "font": "Arial Black",
+      "fontSize": 110,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #60A5FA 0%, #3B82F6 50%, #1D4ED8 100%)",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 5,
+      "textTransform": "uppercase",
+      "lineHeight": 0.9,
+      "x": 0.3,
+      "y": 0.28,
+      "width": 0.55,
+      "height": 0.15,
+      "shadow": { "color": "#1D4ED8", "blur": 25, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#0f172a", "width": 4 },
+      "zIndex": 4
+    },
+    {
+      "type": "text",
+      "text": "Blender 4.5 • Geometry Nodes",
+      "font": "Arial",
+      "fontSize": 32,
+      "color": "#94A3B8",
+      "textAlign": "center",
+      "fontWeight": 500,
+      "letterSpacing": 8,
+      "textTransform": "uppercase",
+      "x": 0.3,
+      "y": 0.52,
+      "width": 0.5,
+      "height": 0.05,
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "4K • 60FPS • TIMELAPSE",
+      "font": "Arial",
+      "fontSize": 26,
+      "color": "#64748B",
+      "textAlign": "center",
+      "fontWeight": 600,
+      "letterSpacing": 10,
+      "textTransform": "uppercase",
+      "x": 0.3,
+      "y": 0.62,
+      "width": 0.48,
+      "height": 0.04,
+      "zIndex": 2
+    },
+    {
+      "type": "element",
+      "elementContent": "🎬",
+      "x": 0.17,
+      "y": 0.82,
+      "fontSize": 60,
+      "opacity": 0.6,
+      "zIndex": 1
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1.05,
+    "contrast": 1.05,
+    "saturation": 1.05,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

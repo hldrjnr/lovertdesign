@@ -1,0 +1,101 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "itch.io — Visual Novel",
+  "category": "itch.io",
+  "icon": "💕",
+  "theme": "Indie Game — Visual Novel",
+  "template": {
+    "id": "itchio-cover",
+    "name": "itch.io Cover",
+    "width": 630,
+    "height": 500,
+    "platform": "itch.io"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(160deg, #0a0a1a 0%, #1a0a2e 50%, #0a0a1a 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "vn-glow",
+      "vector": {
+        "shape": "circle",
+        "color": "#EC4899",
+        "fillGradient": "radial-gradient(circle, #EC489920, transparent)",
+        "strokeWidth": 0,
+        "filled": true
+      },
+      "x": 0.15,
+      "y": 0.2,
+      "width": 0.7,
+      "height": 0.6,
+      "opacity": 0.15,
+      "blur": 8,
+      "zIndex": 0
+    },
+    {
+      "type": "text",
+      "text": "STELLAR",
+      "font": "Impact",
+      "fontSize": 72,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #EC4899 0%, #F472B6 100%)",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 6,
+      "textTransform": "uppercase",
+      "lineHeight": 0.85,
+      "x": 0.5,
+      "y": 0.38,
+      "width": 0.8,
+      "height": 0.18,
+      "shadow": { "color": "#EC4899", "blur": 16, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#0a0a1a", "width": 3 },
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "A Visual Novel",
+      "font": "Arial",
+      "fontSize": 22,
+      "color": "#94A3B8",
+      "textAlign": "center",
+      "fontWeight": 500,
+      "letterSpacing": 4,
+      "x": 0.5,
+      "y": 0.58,
+      "width": 0.5,
+      "height": 0.05,
+      "zIndex": 2
+    },
+    {
+      "type": "text",
+      "text": "Multiple Endings • Free Demo",
+      "font": "Arial",
+      "fontSize": 18,
+      "color": "#64748B",
+      "textAlign": "center",
+      "fontWeight": 400,
+      "letterSpacing": 2,
+      "x": 0.5,
+      "y": 0.66,
+      "width": 0.5,
+      "height": 0.04,
+      "zIndex": 1
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1,
+    "contrast": 1.05,
+    "saturation": 1.1,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

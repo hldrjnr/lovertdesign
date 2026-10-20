@@ -1,0 +1,101 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "Instagram — Reel Cover",
+  "category": "Instagram",
+  "icon": "🎬",
+  "theme": "Social — Reel / Video Cover",
+  "template": {
+    "id": "instagram-post",
+    "name": "Instagram Post",
+    "width": 1080,
+    "height": 1080,
+    "platform": "Instagram"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(135deg, #0a0a0a 0%, #1a0a2e 50%, #0a0a0a 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "play-ring",
+      "vector": {
+        "shape": "circle",
+        "color": "#FFFFFF",
+        "strokeColor": "#FFFFFF",
+        "strokeWidth": 2,
+        "filled": false
+      },
+      "x": 0.4,
+      "y": 0.35,
+      "width": 0.2,
+      "height": 0.35,
+      "opacity": 0.2,
+      "zIndex": 0
+    },
+    {
+      "type": "text",
+      "text": "REEL",
+      "font": "Arial",
+      "fontSize": 28,
+      "color": "#F43F5E",
+      "textAlign": "center",
+      "fontWeight": 800,
+      "letterSpacing": 10,
+      "textTransform": "uppercase",
+      "x": 0.5,
+      "y": 0.15,
+      "width": 0.3,
+      "height": 0.04,
+      "zIndex": 4
+    },
+    {
+      "type": "text",
+      "text": "3D PROCESS",
+      "font": "Impact",
+      "fontSize": 90,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #F43F5E 0%, #E11D48 100%)",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 6,
+      "textTransform": "uppercase",
+      "lineHeight": 0.88,
+      "x": 0.5,
+      "y": 0.42,
+      "width": 0.7,
+      "height": 0.12,
+      "shadow": { "color": "#F43F5E", "blur": 18, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#0a0a0a", "width": 3 },
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "Watch full video ↗",
+      "font": "Arial",
+      "fontSize": 24,
+      "color": "#64748B",
+      "textAlign": "center",
+      "fontWeight": 500,
+      "letterSpacing": 3,
+      "x": 0.5,
+      "y": 0.6,
+      "width": 0.4,
+      "height": 0.04,
+      "zIndex": 2
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1,
+    "contrast": 1.08,
+    "saturation": 1.1,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

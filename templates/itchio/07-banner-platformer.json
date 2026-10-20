@@ -1,0 +1,94 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "itch.io — Platformer",
+  "category": "itch.io",
+  "icon": "🏃",
+  "theme": "Indie Game — Platformer",
+  "template": {
+    "id": "itchio-banner",
+    "name": "itch.io Banner",
+    "width": 960,
+    "height": 400,
+    "platform": "itch.io"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f3460 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "platform-line",
+      "vector": {
+        "shape": "line",
+        "color": "#10B981",
+        "strokeColor": "#10B981",
+        "strokeWidth": 3,
+        "filled": false
+      },
+      "x": 0.05,
+      "y": 0.75,
+      "width": 0.9,
+      "height": 0,
+      "opacity": 0.3,
+      "zIndex": 0
+    },
+    {
+      "type": "text",
+      "text": "JUMP RUN",
+      "font": "Impact",
+      "fontSize": 80,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #10B981 0%, #059669 100%)",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 8,
+      "textTransform": "uppercase",
+      "lineHeight": 0.85,
+      "x": 0.5,
+      "y": 0.42,
+      "width": 0.75,
+      "height": 0.22,
+      "shadow": { "color": "#10B981", "blur": 16, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#0f172a", "width": 3 },
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "A Tiny Platformer Adventure",
+      "font": "Arial",
+      "fontSize": 22,
+      "color": "#94A3B8",
+      "textAlign": "center",
+      "fontWeight": 500,
+      "letterSpacing": 3,
+      "x": 0.5,
+      "y": 0.68,
+      "width": 0.5,
+      "height": 0.06,
+      "zIndex": 2
+    },
+    {
+      "type": "element",
+      "elementContent": "🏃",
+      "x": 0.12,
+      "y": 0.35,
+      "fontSize": 50,
+      "opacity": 0.6,
+      "zIndex": 1
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1.02,
+    "contrast": 1.05,
+    "saturation": 1.08,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

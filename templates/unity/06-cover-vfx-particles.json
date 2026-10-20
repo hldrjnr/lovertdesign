@@ -1,0 +1,128 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "Unity AS — VFX Particles",
+  "category": "Unity Asset Store",
+  "icon": "✨",
+  "theme": "AS — Visual Effects",
+  "template": {
+    "id": "unity-as-cover",
+    "name": "Unity Cover",
+    "width": 1950,
+    "height": 1300,
+    "platform": "Unity Asset Store"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(160deg, #0a0a0a 0%, #1a0a2e 40%, #2d0033 80%, #0a0a0a 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "vfx-glow-1",
+      "vector": {
+        "shape": "circle",
+        "color": "#F43F5E",
+        "fillGradient": "radial-gradient(circle, #F43F5E20, transparent)",
+        "strokeWidth": 0,
+        "filled": true
+      },
+      "x": 0.15,
+      "y": 0.2,
+      "width": 0.4,
+      "height": 0.4,
+      "opacity": 0.2,
+      "blur": 8,
+      "zIndex": 0
+    },
+    {
+      "type": "vector",
+      "id": "vfx-glow-2",
+      "vector": {
+        "shape": "circle",
+        "color": "#A855F7",
+        "fillGradient": "radial-gradient(circle, #A855F720, transparent)",
+        "strokeWidth": 0,
+        "filled": true
+      },
+      "x": 0.55,
+      "y": 0.25,
+      "width": 0.35,
+      "height": 0.35,
+      "opacity": 0.15,
+      "blur": 8,
+      "zIndex": 0
+    },
+    {
+      "type": "text",
+      "text": "PARTICLE VFX",
+      "font": "Impact",
+      "fontSize": 120,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #F43F5E 0%, #A855F7 60%, #3B82F6 100%)",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 8,
+      "textTransform": "uppercase",
+      "lineHeight": 0.88,
+      "x": 0.5,
+      "y": 0.38,
+      "width": 0.7,
+      "height": 0.12,
+      "shadow": { "color": "#F43F5E", "blur": 24, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#0a0a0a", "width": 4 },
+      "zIndex": 4
+    },
+    {
+      "type": "text",
+      "text": "80+ Effects • HDRP / URP / Built-in",
+      "font": "Arial",
+      "fontSize": 34,
+      "color": "#94A3B8",
+      "textAlign": "center",
+      "fontWeight": 600,
+      "letterSpacing": 5,
+      "x": 0.5,
+      "y": 0.55,
+      "width": 0.6,
+      "height": 0.04,
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "Fire • Magic • Water • Environment",
+      "font": "Arial",
+      "fontSize": 28,
+      "color": "#64748B",
+      "textAlign": "center",
+      "fontWeight": 400,
+      "letterSpacing": 4,
+      "x": 0.5,
+      "y": 0.62,
+      "width": 0.55,
+      "height": 0.03,
+      "zIndex": 2
+    },
+    {
+      "type": "element",
+      "elementContent": "✨",
+      "x": 0.85,
+      "y": 0.12,
+      "fontSize": 60,
+      "opacity": 0.4,
+      "zIndex": 1
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1.05,
+    "contrast": 1.1,
+    "saturation": 1.15,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

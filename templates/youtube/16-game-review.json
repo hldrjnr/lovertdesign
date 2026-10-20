@@ -1,0 +1,133 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "YouTube — Game Review",
+  "category": "YouTube",
+  "icon": "⭐",
+  "theme": "Gaming — Review",
+  "template": {
+    "id": "youtube",
+    "name": "YouTube",
+    "width": 1920,
+    "height": 1080,
+    "platform": "YouTube"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(160deg, #0f172a 0%, #1e293b 50%, #0f172a 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "review-box",
+      "vector": {
+        "shape": "rounded-rect",
+        "color": "#1e293b",
+        "strokeColor": "#FBBF24",
+        "strokeWidth": 2,
+        "filled": true,
+        "cornerRadius": 20
+      },
+      "x": 0.6,
+      "y": 0.15,
+      "width": 0.34,
+      "height": 0.55,
+      "opacity": 0.8,
+      "zIndex": 0
+    },
+    {
+      "type": "text",
+      "text": "REVIEW",
+      "font": "Impact",
+      "fontSize": 50,
+      "color": "#FBBF24",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 8,
+      "textTransform": "uppercase",
+      "x": 0.77,
+      "y": 0.2,
+      "width": 0.25,
+      "height": 0.06,
+      "zIndex": 4
+    },
+    {
+      "type": "text",
+      "text": "9.5",
+      "font": "Impact",
+      "fontSize": 100,
+      "color": "#FBBF24",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 4,
+      "x": 0.77,
+      "y": 0.38,
+      "width": 0.2,
+      "height": 0.12,
+      "shadow": { "color": "#FBBF24", "blur": 16, "offsetX": 0, "offsetY": 0 },
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "/10",
+      "font": "Arial",
+      "fontSize": 28,
+      "color": "#94A3B8",
+      "textAlign": "center",
+      "fontWeight": 600,
+      "letterSpacing": 2,
+      "x": 0.77,
+      "y": 0.52,
+      "width": 0.15,
+      "height": 0.04,
+      "zIndex": 2
+    },
+    {
+      "type": "text",
+      "text": "GAME TITLE",
+      "font": "Impact",
+      "fontSize": 100,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #FFFFFF 0%, #94A3B8 100%)",
+      "textAlign": "left",
+      "fontWeight": 900,
+      "letterSpacing": 4,
+      "textTransform": "uppercase",
+      "lineHeight": 0.88,
+      "x": 0.06,
+      "y": 0.35,
+      "width": 0.5,
+      "height": 0.12,
+      "shadow": { "color": "#FBBF24", "blur": 14, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#0f172a", "width": 3 },
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "Honest Review • No Spoilers",
+      "font": "Arial",
+      "fontSize": 28,
+      "color": "#64748B",
+      "textAlign": "left",
+      "fontWeight": 400,
+      "letterSpacing": 3,
+      "x": 0.06,
+      "y": 0.52,
+      "width": 0.4,
+      "height": 0.04,
+      "zIndex": 2
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1.02,
+    "contrast": 1.08,
+    "saturation": 1.05,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

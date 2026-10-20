@@ -1,0 +1,128 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "Cover — Blender Studio / 3D Portfolio",
+  "category": "Facebook",
+  "icon": "🎞️",
+  "theme": "3D / Blender — Portfolio",
+  "template": {
+    "id": "facebook-cover",
+    "name": "Facebook Cover",
+    "width": 820,
+    "height": 312,
+    "platform": "Facebook"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(135deg, #0f172a 0%, #1e293b 45%, #334155 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "bg-glow",
+      "vector": {
+        "shape": "circle",
+        "color": "#3B82F6",
+        "fillGradient": "radial-gradient(circle, #3B82F630, transparent)",
+        "strokeWidth": 0,
+        "filled": true
+      },
+      "x": 0.35,
+      "y": 0.05,
+      "width": 0.4,
+      "height": 0.9,
+      "opacity": 0.2,
+      "blur": 6,
+      "zIndex": 0
+    },
+    {
+      "type": "vector",
+      "id": "accent-line",
+      "vector": {
+        "shape": "line",
+        "color": "#3B82F6",
+        "strokeWidth": 3,
+        "filled": false
+      },
+      "x": 0.05,
+      "y": 0.82,
+      "width": 0.9,
+      "height": 0.005,
+      "opacity": 0.4,
+      "zIndex": 1
+    },
+    {
+      "type": "text",
+      "text": "BLENDER STUDIO",
+      "font": "Arial Black",
+      "fontSize": 60,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #60A5FA 0%, #3B82F6 60%, #1D4ED8 100%)",
+      "textAlign": "left",
+      "fontWeight": 900,
+      "letterSpacing": 4,
+      "textTransform": "uppercase",
+      "lineHeight": 0.9,
+      "x": 0.05,
+      "y": 0.2,
+      "width": 0.55,
+      "height": 0.25,
+      "shadow": { "color": "#1D4ED8", "blur": 20, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#0f172a", "width": 3 },
+      "zIndex": 4
+    },
+    {
+      "type": "text",
+      "text": "3D Art • Environment • Characters",
+      "font": "Arial",
+      "fontSize": 16,
+      "color": "#94A3B8",
+      "textAlign": "left",
+      "fontWeight": 600,
+      "letterSpacing": 5,
+      "textTransform": "uppercase",
+      "x": 0.05,
+      "y": 0.52,
+      "width": 0.5,
+      "height": 0.06,
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "Cycles • Geometry Nodes • Materials",
+      "font": "Arial",
+      "fontSize": 13,
+      "color": "#64748B",
+      "textAlign": "left",
+      "fontWeight": 400,
+      "letterSpacing": 4,
+      "textTransform": "uppercase",
+      "x": 0.05,
+      "y": 0.64,
+      "width": 0.45,
+      "height": 0.05,
+      "zIndex": 2
+    },
+    {
+      "type": "element",
+      "elementContent": "🎨",
+      "x": 0.85,
+      "y": 0.35,
+      "fontSize": 45,
+      "opacity": 0.6,
+      "zIndex": 1
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1.05,
+    "contrast": 1.08,
+    "saturation": 1.1,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

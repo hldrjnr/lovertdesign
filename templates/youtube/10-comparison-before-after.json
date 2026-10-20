@@ -1,0 +1,153 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "YouTube — Comparison / Before-After",
+  "category": "YouTube",
+  "icon": "⚖️",
+  "theme": "Creative — Comparison",
+  "template": {
+    "id": "youtube",
+    "name": "YouTube",
+    "width": 1920,
+    "height": 1080,
+    "platform": "YouTube"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(160deg, #0f172a 0%, #1e293b 50%, #0f172a 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "before-box",
+      "vector": {
+        "shape": "rounded-rect",
+        "color": "#1e293b",
+        "strokeColor": "#EF4444",
+        "strokeWidth": 2,
+        "filled": true,
+        "cornerRadius": 16
+      },
+      "x": 0.06,
+      "y": 0.15,
+      "width": 0.42,
+      "height": 0.55,
+      "opacity": 0.8,
+      "zIndex": 0
+    },
+    {
+      "type": "vector",
+      "id": "after-box",
+      "vector": {
+        "shape": "rounded-rect",
+        "color": "#1e293b",
+        "strokeColor": "#10B981",
+        "strokeWidth": 2,
+        "filled": true,
+        "cornerRadius": 16
+      },
+      "x": 0.52,
+      "y": 0.15,
+      "width": 0.42,
+      "height": 0.55,
+      "opacity": 0.8,
+      "zIndex": 0
+    },
+    {
+      "type": "text",
+      "text": "BEFORE",
+      "font": "Impact",
+      "fontSize": 42,
+      "color": "#EF4444",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 8,
+      "textTransform": "uppercase",
+      "x": 0.27,
+      "y": 0.12,
+      "width": 0.3,
+      "height": 0.06,
+      "zIndex": 4
+    },
+    {
+      "type": "text",
+      "text": "AFTER",
+      "font": "Impact",
+      "fontSize": 42,
+      "color": "#10B981",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 8,
+      "textTransform": "uppercase",
+      "x": 0.73,
+      "y": 0.12,
+      "width": 0.3,
+      "height": 0.06,
+      "zIndex": 4
+    },
+    {
+      "type": "text",
+      "text": "BEFORE vs AFTER",
+      "font": "Impact",
+      "fontSize": 90,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #FFFFFF 0%, #94A3B8 100%)",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 6,
+      "textTransform": "uppercase",
+      "lineHeight": 0.88,
+      "x": 0.5,
+      "y": 0.78,
+      "width": 0.7,
+      "height": 0.1,
+      "shadow": { "color": "#FBBF24", "blur": 14, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#0f172a", "width": 3 },
+      "zIndex": 3
+    },
+    {
+      "type": "vector",
+      "id": "vs-badge",
+      "vector": {
+        "shape": "circle",
+        "color": "#FBBF24",
+        "fillGradient": "linear-gradient(135deg, #FBBF24, #F59E0B)",
+        "strokeWidth": 0,
+        "filled": true
+      },
+      "x": 0.47,
+      "y": 0.33,
+      "width": 0.07,
+      "height": 0.12,
+      "opacity": 0.95,
+      "zIndex": 2
+    },
+    {
+      "type": "text",
+      "text": "VS",
+      "font": "Impact",
+      "fontSize": 24,
+      "color": "#000000",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 2,
+      "x": 0.47,
+      "y": 0.36,
+      "width": 0.07,
+      "height": 0.06,
+      "zIndex": 3
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1.02,
+    "contrast": 1.08,
+    "saturation": 1.05,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

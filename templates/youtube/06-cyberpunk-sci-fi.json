@@ -1,0 +1,156 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "YouTube — Cyberpunk / Sci-Fi",
+  "category": "YouTube",
+  "icon": "🤖",
+  "theme": "Gaming — Cyberpunk",
+  "template": {
+    "id": "youtube",
+    "name": "YouTube",
+    "width": 1920,
+    "height": 1080,
+    "platform": "YouTube"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(160deg, #0a0a1a 0%, #0d1b2a 30%, #1b0a2e 60%, #0a0a1a 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "grid-line-h1",
+      "vector": {
+        "shape": "line",
+        "color": "#00FFFF",
+        "strokeColor": "#00FFFF",
+        "strokeWidth": 1,
+        "filled": false
+      },
+      "x": 0,
+      "y": 0.33,
+      "width": 1,
+      "height": 0,
+      "opacity": 0.12,
+      "zIndex": 0
+    },
+    {
+      "type": "vector",
+      "id": "grid-line-h2",
+      "vector": {
+        "shape": "line",
+        "color": "#00FFFF",
+        "strokeColor": "#00FFFF",
+        "strokeWidth": 1,
+        "filled": false
+      },
+      "x": 0,
+      "y": 0.66,
+      "width": 1,
+      "height": 0,
+      "opacity": 0.12,
+      "zIndex": 0
+    },
+    {
+      "type": "vector",
+      "id": "neon-bar",
+      "vector": {
+        "shape": "rounded-rect",
+        "color": "#FF00FF",
+        "fillGradient": "linear-gradient(90deg, #FF00FF, #00FFFF)",
+        "strokeWidth": 0,
+        "filled": true,
+        "cornerRadius": 50
+      },
+      "x": 0.3,
+      "y": 0.3,
+      "width": 0.4,
+      "height": 0.008,
+      "opacity": 0.8,
+      "zIndex": 1
+    },
+    {
+      "type": "text",
+      "text": "CYBERPUNK",
+      "font": "Impact",
+      "fontSize": 130,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #00FFFF 0%, #FF00FF 100%)",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 12,
+      "textTransform": "uppercase",
+      "lineHeight": 0.88,
+      "x": 0.5,
+      "y": 0.35,
+      "width": 0.65,
+      "height": 0.15,
+      "shadow": { "color": "#FF00FF", "blur": 24, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#0a0a1a", "width": 5 },
+      "zIndex": 4
+    },
+    {
+      "type": "text",
+      "text": "FUTURISTIC ASSETS PACK",
+      "font": "Arial",
+      "fontSize": 32,
+      "color": "#00FFFF",
+      "textAlign": "center",
+      "fontWeight": 700,
+      "letterSpacing": 8,
+      "textTransform": "uppercase",
+      "x": 0.5,
+      "y": 0.55,
+      "width": 0.55,
+      "height": 0.04,
+      "shadow": { "color": "#00FFFF", "blur": 10, "offsetX": 0, "offsetY": 0 },
+      "zIndex": 3
+    },
+    {
+      "type": "vector",
+      "id": "neon-bar-bottom",
+      "vector": {
+        "shape": "rounded-rect",
+        "color": "#FF00FF",
+        "fillGradient": "linear-gradient(90deg, #00FFFF, #FF00FF)",
+        "strokeWidth": 0,
+        "filled": true,
+        "cornerRadius": 50
+      },
+      "x": 0.3,
+      "y": 0.62,
+      "width": 0.4,
+      "height": 0.008,
+      "opacity": 0.8,
+      "zIndex": 1
+    },
+    {
+      "type": "text",
+      "text": "500+ MODELS • PBR TEXTURES",
+      "font": "Arial",
+      "fontSize": 24,
+      "color": "#64748B",
+      "textAlign": "center",
+      "fontWeight": 500,
+      "letterSpacing": 6,
+      "textTransform": "uppercase",
+      "x": 0.5,
+      "y": 0.68,
+      "width": 0.5,
+      "height": 0.03,
+      "zIndex": 2
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1.05,
+    "contrast": 1.1,
+    "saturation": 1.2,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

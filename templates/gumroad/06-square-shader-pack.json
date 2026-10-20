@@ -1,0 +1,120 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "Gumroad — Shader Pack",
+  "category": "Gumroad",
+  "icon": "🌈",
+  "theme": "Marketplace — Shader / Material",
+  "template": {
+    "id": "gumroad-square",
+    "name": "Gumroad Square",
+    "width": 600,
+    "height": 600,
+    "platform": "Gumroad"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(135deg, #0a0a0a 0%, #1a0a2e 50%, #0a0a0a 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "shader-bar1",
+      "vector": {
+        "shape": "rounded-rect",
+        "color": "#FF00FF",
+        "fillGradient": "linear-gradient(90deg, #FF00FF, #00FFFF)",
+        "strokeWidth": 0,
+        "filled": true,
+        "cornerRadius": 50
+      },
+      "x": 0.1,
+      "y": 0.18,
+      "width": 0.8,
+      "height": 0.02,
+      "opacity": 0.6,
+      "zIndex": 0
+    },
+    {
+      "type": "vector",
+      "id": "shader-bar2",
+      "vector": {
+        "shape": "rounded-rect",
+        "color": "#FBBF24",
+        "fillGradient": "linear-gradient(90deg, #FBBF24, #F43F5E)",
+        "strokeWidth": 0,
+        "filled": true,
+        "cornerRadius": 50
+      },
+      "x": 0.1,
+      "y": 0.22,
+      "width": 0.8,
+      "height": 0.02,
+      "opacity": 0.5,
+      "zIndex": 0
+    },
+    {
+      "type": "text",
+      "text": "SHADER",
+      "font": "Impact",
+      "fontSize": 58,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #FF00FF 0%, #00FFFF 100%)",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 5,
+      "textTransform": "uppercase",
+      "lineHeight": 0.88,
+      "x": 0.5,
+      "y": 0.42,
+      "width": 0.75,
+      "height": 0.15,
+      "shadow": { "color": "#FF00FF", "blur": 14, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#0a0a0a", "width": 2 },
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "MATERIAL PACK",
+      "font": "Arial",
+      "fontSize": 24,
+      "color": "#00FFFF",
+      "textAlign": "center",
+      "fontWeight": 800,
+      "letterSpacing": 8,
+      "textTransform": "uppercase",
+      "x": 0.5,
+      "y": 0.56,
+      "width": 0.5,
+      "height": 0.05,
+      "zIndex": 2
+    },
+    {
+      "type": "text",
+      "text": "100+ Procedural • Blender Nodes",
+      "font": "Arial",
+      "fontSize": 18,
+      "color": "#94A3B8",
+      "textAlign": "center",
+      "fontWeight": 500,
+      "letterSpacing": 2,
+      "x": 0.5,
+      "y": 0.66,
+      "width": 0.6,
+      "height": 0.05,
+      "zIndex": 1
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1.05,
+    "contrast": 1.1,
+    "saturation": 1.2,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "Post — Game Dev Announcement",
+  "category": "Instagram",
+  "icon": "🎮",
+  "theme": "Game Dev — Announcement",
+  "template": {
+    "id": "instagram-post",
+    "name": "Instagram Post",
+    "width": 1080,
+    "height": 1080,
+    "platform": "Instagram"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(160deg, #0a0a0a 0%, #1a0a2e 45%, #2d0033 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "edge-glow",
+      "vector": {
+        "shape": "rounded-rect",
+        "color": "#FF0000",
+        "strokeColor": "#FF0000",
+        "strokeWidth": 4,
+        "filled": false,
+        "cornerRadius": 40,
+        "strokeDash": "solid"
+      },
+      "x": 0.06,
+      "y": 0.06,
+      "width": 0.88,
+      "height": 0.88,
+      "opacity": 0.3,
+      "zIndex": 0
+    },
+    {
+      "type": "text",
+      "text": "COMING SOON",
+      "font": "Impact",
+      "fontSize": 85,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #FFFFFF 0%, #F472B6 100%)",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 10,
+      "textTransform": "uppercase",
+      "lineHeight": 0.88,
+      "x": 0.5,
+      "y": 0.35,
+      "width": 0.7,
+      "height": 0.1,
+      "shadow": { "color": "#F472B6", "blur": 20, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#0a0a0a", "width": 4 },
+      "zIndex": 4
+    },
+    {
+      "type": "text",
+      "text": "Wishlist on Steam",
+      "font": "Arial",
+      "fontSize": 28,
+      "color": "#F472B6",
+      "textAlign": "center",
+      "fontWeight": 700,
+      "letterSpacing": 6,
+      "textTransform": "uppercase",
+      "x": 0.5,
+      "y": 0.52,
+      "width": 0.55,
+      "height": 0.05,
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "link in bio ↑",
+      "font": "Arial",
+      "fontSize": 24,
+      "color": "#94A3B8",
+      "textAlign": "center",
+      "fontWeight": 400,
+      "letterSpacing": 4,
+      "x": 0.5,
+      "y": 0.62,
+      "width": 0.35,
+      "height": 0.04,
+      "zIndex": 2
+    },
+    {
+      "type": "element",
+      "elementContent": "🎯",
+      "x": 0.82,
+      "y": 0.82,
+      "fontSize": 60,
+      "opacity": 0.5,
+      "zIndex": 1
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1,
+    "contrast": 1.1,
+    "saturation": 1.15,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

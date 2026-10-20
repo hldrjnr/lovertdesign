@@ -1,0 +1,84 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "itch.io — Game Cover",
+  "category": "itch.io",
+  "icon": "🎮",
+  "theme": "Indie Game — Cover",
+  "template": {
+    "id": "itchio-cover",
+    "name": "itch.io Cover",
+    "width": 630,
+    "height": 500,
+    "platform": "itch.io"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(160deg, #0a0a0a 0%, #1a0a2e 50%, #2d0033 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "text",
+      "text": "GAME TITLE",
+      "font": "Impact",
+      "fontSize": 72,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #FFFFFF 0%, #F472B6 80%, #EC4899 100%)",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 5,
+      "textTransform": "uppercase",
+      "lineHeight": 0.85,
+      "x": 0.5,
+      "y": 0.42,
+      "width": 0.8,
+      "height": 0.18,
+      "shadow": { "color": "#EC4899", "blur": 16, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#0a0a0a", "width": 3 },
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "A Short Adventure Game",
+      "font": "Arial",
+      "fontSize": 22,
+      "color": "#94A3B8",
+      "textAlign": "center",
+      "fontWeight": 500,
+      "letterSpacing": 3,
+      "x": 0.5,
+      "y": 0.62,
+      "width": 0.6,
+      "height": 0.06,
+      "zIndex": 2
+    },
+    {
+      "type": "text",
+      "text": "★ PLAY NOW",
+      "font": "Arial",
+      "fontSize": 18,
+      "color": "#EC4899",
+      "textAlign": "center",
+      "fontWeight": 800,
+      "letterSpacing": 4,
+      "textTransform": "uppercase",
+      "x": 0.5,
+      "y": 0.74,
+      "width": 0.4,
+      "height": 0.06,
+      "zIndex": 1
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1,
+    "contrast": 1.1,
+    "saturation": 1.15,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

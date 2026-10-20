@@ -1,0 +1,101 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "Unity AS — Cover / Hero",
+  "category": "Unity Asset Store",
+  "icon": "🖼️",
+  "theme": "AS — Cover / Banner",
+  "template": {
+    "id": "unity-as-cover",
+    "name": "Unity Cover",
+    "width": 1950,
+    "height": 1300,
+    "platform": "Unity Asset Store"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(160deg, #0f172a 0%, #1e293b 40%, #0f3460 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "hero-glow",
+      "vector": {
+        "shape": "circle",
+        "color": "#3B82F6",
+        "fillGradient": "radial-gradient(circle, #3B82F620, transparent)",
+        "strokeWidth": 0,
+        "filled": true
+      },
+      "x": 0.25,
+      "y": 0.15,
+      "width": 0.65,
+      "height": 0.65,
+      "opacity": 0.2,
+      "blur": 8,
+      "zIndex": 0
+    },
+    {
+      "type": "text",
+      "text": "EPIC ENVIRONMENT",
+      "font": "Impact",
+      "fontSize": 130,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #FFFFFF 0%, #93C5FD 60%, #3B82F6 100%)",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 6,
+      "textTransform": "uppercase",
+      "lineHeight": 0.85,
+      "x": 0.5,
+      "y": 0.38,
+      "width": 0.7,
+      "height": 0.12,
+      "shadow": { "color": "#3B82F6", "blur": 28, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#0f172a", "width": 4 },
+      "zIndex": 4
+    },
+    {
+      "type": "text",
+      "text": "Modular Kit | 200+ Prefabs | PBR",
+      "font": "Arial",
+      "fontSize": 38,
+      "color": "#94A3B8",
+      "textAlign": "center",
+      "fontWeight": 600,
+      "letterSpacing": 6,
+      "x": 0.5,
+      "y": 0.55,
+      "width": 0.65,
+      "height": 0.04,
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "Unity 2022 LTS • URP • HDRP",
+      "font": "Arial",
+      "fontSize": 30,
+      "color": "#64748B",
+      "textAlign": "center",
+      "fontWeight": 400,
+      "letterSpacing": 5,
+      "x": 0.84,
+      "y": 0.08,
+      "width": 0.3,
+      "height": 0.04,
+      "zIndex": 2
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1.02,
+    "contrast": 1.05,
+    "saturation": 1.08,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

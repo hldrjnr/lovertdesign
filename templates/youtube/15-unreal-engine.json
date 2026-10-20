@@ -1,0 +1,112 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "YouTube — Unreal Engine 5",
+  "category": "YouTube",
+  "icon": "🔮",
+  "theme": "3D / Unreal Engine",
+  "template": {
+    "id": "youtube",
+    "name": "YouTube",
+    "width": 1920,
+    "height": 1080,
+    "platform": "YouTube"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(160deg, #0a0a0a 0%, #1a0a2e 35%, #2d0033 65%, #0a0a0a 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "ue-glow",
+      "vector": {
+        "shape": "circle",
+        "color": "#A855F7",
+        "fillGradient": "radial-gradient(circle, #A855F720, transparent)",
+        "strokeWidth": 0,
+        "filled": true
+      },
+      "x": 0.6,
+      "y": 0.15,
+      "width": 0.4,
+      "height": 0.4,
+      "opacity": 0.2,
+      "blur": 10,
+      "zIndex": 0
+    },
+    {
+      "type": "text",
+      "text": "UNREAL",
+      "font": "Impact",
+      "fontSize": 130,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #A855F7 0%, #7C3AED 50%, #4C1D95 100%)",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 10,
+      "textTransform": "uppercase",
+      "lineHeight": 0.88,
+      "x": 0.5,
+      "y": 0.32,
+      "width": 0.65,
+      "height": 0.16,
+      "shadow": { "color": "#A855F7", "blur": 28, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": #0a0a0a, "width": 5 },
+      "zIndex": 4
+    },
+    {
+      "type": "text",
+      "text": "ENGINE 5",
+      "font": "Arial",
+      "fontSize": 42,
+      "color": "#A855F7",
+      "textAlign": "center",
+      "fontWeight": 800,
+      "letterSpacing": 12,
+      "textTransform": "uppercase",
+      "x": 0.5,
+      "y": 0.5,
+      "width": 0.45,
+      "height": 0.05,
+      "shadow": { "color": "#000000", "blur": 8, "offsetX": 0, "offsetY": 2 },
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "Nanite • Lumen • MetaHumans",
+      "font": "Arial",
+      "fontSize": 26,
+      "color": "#64748B",
+      "textAlign": "center",
+      "fontWeight": 400,
+      "letterSpacing": 4,
+      "x": 0.5,
+      "y": 0.58,
+      "width": 0.5,
+      "height": 0.03,
+      "zIndex": 2
+    },
+    {
+      "type": "element",
+      "elementContent": "🔮",
+      "x": 0.82,
+      "y": 0.82,
+      "fontSize": 55,
+      "opacity": 0.4,
+      "zIndex": 1
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1.05,
+    "contrast": 1.1,
+    "saturation": 1.15,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

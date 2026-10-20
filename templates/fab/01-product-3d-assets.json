@@ -1,0 +1,169 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "Product — 3D Game Assets",
+  "category": "Fab",
+  "icon": "🏪",
+  "theme": "Fab — 3D Assets",
+  "template": {
+    "id": "fab",
+    "name": "Fab",
+    "width": 960,
+    "height": 540,
+    "platform": "Fab"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(160deg, #0a0a0a 0%, #1a1a2e 35%, #16213e 65%, #0a0a0a 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "bg-accent",
+      "vector": {
+        "shape": "circle",
+        "color": "#F59E0B",
+        "fillGradient": "radial-gradient(circle, #F59E0B25, transparent)",
+        "strokeWidth": 0,
+        "filled": true
+      },
+      "x": 0.25,
+      "y": 0.1,
+      "width": 0.5,
+      "height": 0.8,
+      "opacity": 0.18,
+      "blur": 8,
+      "zIndex": 0
+    },
+    {
+      "type": "vector",
+      "id": "badge-bg",
+      "vector": {
+        "shape": "rounded-rect",
+        "color": "#F59E0B",
+        "fillGradient": "linear-gradient(135deg, #F59E0B, #D97706)",
+        "strokeWidth": 0,
+        "filled": true,
+        "cornerRadius": 20
+      },
+      "x": 0.04,
+      "y": 0.06,
+      "width": 0.18,
+      "height": 0.1,
+      "opacity": 0.95,
+      "zIndex": 5
+    },
+    {
+      "type": "text",
+      "text": "NEW",
+      "font": "Arial",
+      "fontSize": 18,
+      "color": "#000000",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 4,
+      "textTransform": "uppercase",
+      "lineHeight": 0.9,
+      "x": 0.04,
+      "y": 0.07,
+      "width": 0.18,
+      "height": 0.08,
+      "zIndex": 6
+    },
+    {
+      "type": "text",
+      "text": "3D GAME ASSETS",
+      "font": "Impact",
+      "fontSize": 72,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #FFFFFF 0%, #FCD34D 100%)",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 5,
+      "textTransform": "uppercase",
+      "lineHeight": 0.9,
+      "x": 0.1,
+      "y": 0.28,
+      "width": 0.8,
+      "height": 0.2,
+      "shadow": { "color": "#F59E0B", "blur": 25, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#0a0a0a", "width": 4 },
+      "zIndex": 4
+    },
+    {
+      "type": "text",
+      "text": "Characters • Props • Environments",
+      "font": "Arial",
+      "fontSize": 20,
+      "color": "#94A3B8",
+      "textAlign": "center",
+      "fontWeight": 600,
+      "letterSpacing": 5,
+      "textTransform": "uppercase",
+      "x": 0.1,
+      "y": 0.52,
+      "width": 0.8,
+      "height": 0.06,
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "Optimized for Unity & Unreal Engine",
+      "font": "Arial",
+      "fontSize": 16,
+      "color": "#64748B",
+      "textAlign": "center",
+      "fontWeight": 400,
+      "letterSpacing": 3,
+      "x": 0.1,
+      "y": 0.64,
+      "width": 0.8,
+      "height": 0.05,
+      "zIndex": 2
+    },
+    {
+      "type": "vector",
+      "id": "bottom-line",
+      "vector": {
+        "shape": "line",
+        "color": "#F59E0B",
+        "strokeWidth": 2,
+        "filled": false
+      },
+      "x": 0.15,
+      "y": 0.88,
+      "width": 0.7,
+      "height": 0.005,
+      "opacity": 0.4,
+      "zIndex": 1
+    },
+    {
+      "type": "text",
+      "text": "PBR Materials • LOD Ready • 4K Textures",
+      "font": "Arial",
+      "fontSize": 13,
+      "color": "#64748B",
+      "textAlign": "center",
+      "fontWeight": 400,
+      "letterSpacing": 3,
+      "textTransform": "uppercase",
+      "x": 0.1,
+      "y": 0.92,
+      "width": 0.8,
+      "height": 0.04,
+      "zIndex": 1
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1.05,
+    "contrast": 1.1,
+    "saturation": 1.15,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

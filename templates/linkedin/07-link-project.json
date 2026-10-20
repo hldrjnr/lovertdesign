@@ -1,0 +1,99 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "LinkedIn — Project Showcase",
+  "category": "LinkedIn",
+  "icon": "🏆",
+  "theme": "Professional — Project Reel",
+  "template": {
+    "id": "linkedin-link",
+    "name": "LinkedIn Link",
+    "width": 1200,
+    "height": 627,
+    "platform": "LinkedIn"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "left-bar",
+      "vector": {
+        "shape": "rounded-rect",
+        "color": "#F97316",
+        "fillGradient": "linear-gradient(90deg, #F97316, #EA580C)",
+        "strokeWidth": 0,
+        "filled": true,
+        "cornerRadius": 0
+      },
+      "x": 0,
+      "y": 0,
+      "width": 0.018,
+      "height": 1,
+      "zIndex": 0
+    },
+    {
+      "type": "text",
+      "text": "PROJECT SHOWCASE",
+      "font": "Arial",
+      "fontSize": 22,
+      "color": "#F97316",
+      "textAlign": "left",
+      "fontWeight": 700,
+      "letterSpacing": 8,
+      "textTransform": "uppercase",
+      "x": 0.06,
+      "y": 0.12,
+      "width": 0.4,
+      "height": 0.05,
+      "zIndex": 4
+    },
+    {
+      "type": "text",
+      "text": "Real-Time 3D Environment for AAA Game",
+      "font": "Arial Black",
+      "fontSize": 44,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #E2E8F0 0%, #94A3B8 100%)",
+      "textAlign": "left",
+      "fontWeight": 900,
+      "letterSpacing": 1,
+      "lineHeight": 1.15,
+      "x": 0.06,
+      "y": 0.25,
+      "width": 0.65,
+      "height": 0.28,
+      "shadow": { "color": "#F97316", "blur": 10, "offsetX": 0, "offsetY": 0 },
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "Unreal Engine 5 • Nanite • Lumen",
+      "font": "Arial",
+      "fontSize": 22,
+      "color": "#64748B",
+      "textAlign": "left",
+      "fontWeight": 400,
+      "letterSpacing": 2,
+      "x": 0.06,
+      "y": 0.62,
+      "width": 0.5,
+      "height": 0.06,
+      "zIndex": 2
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1.02,
+    "contrast": 1.05,
+    "saturation": 1.05,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

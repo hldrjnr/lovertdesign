@@ -1,0 +1,112 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "YouTube — Top 5 / Ranking",
+  "category": "YouTube",
+  "icon": "🏆",
+  "theme": "Gaming — Ranking",
+  "template": {
+    "id": "youtube",
+    "name": "YouTube",
+    "width": 1920,
+    "height": 1080,
+    "platform": "YouTube"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(160deg, #0a0a0a 0%, #1a0a2e 40%, #0a0a0a 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "trophy-glow",
+      "vector": {
+        "shape": "circle",
+        "color": "#FBBF24",
+        "fillGradient": "radial-gradient(circle, #FBBF2425, transparent)",
+        "strokeWidth": 0,
+        "filled": true
+      },
+      "x": 0.72,
+      "y": 0.12,
+      "width": 0.35,
+      "height": 0.35,
+      "opacity": 0.3,
+      "blur": 8,
+      "zIndex": 0
+    },
+    {
+      "type": "text",
+      "text": "TOP 5",
+      "font": "Impact",
+      "fontSize": 150,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #FBBF24 0%, #F59E0B 60%, #D97706 100%)",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 10,
+      "textTransform": "uppercase",
+      "lineHeight": 0.85,
+      "x": 0.35,
+      "y": 0.25,
+      "width": 0.5,
+      "height": 0.2,
+      "shadow": { "color": "#FBBF24", "blur": 28, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#0a0a0a", "width": 6 },
+      "zIndex": 4
+    },
+    {
+      "type": "text",
+      "text": "BEST 3D MODELS OF 2025",
+      "font": "Arial",
+      "fontSize": 34,
+      "color": "#FBBF24",
+      "textAlign": "center",
+      "fontWeight": 700,
+      "letterSpacing": 8,
+      "textTransform": "uppercase",
+      "x": 0.5,
+      "y": 0.55,
+      "width": 0.6,
+      "height": 0.04,
+      "shadow": { "color": "#000000", "blur": 8, "offsetX": 0, "offsetY": 2 },
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "Free & Paid • Game Ready",
+      "font": "Arial",
+      "fontSize": 26,
+      "color": "#64748B",
+      "textAlign": "center",
+      "fontWeight": 400,
+      "letterSpacing": 4,
+      "x": 0.5,
+      "y": 0.63,
+      "width": 0.5,
+      "height": 0.04,
+      "zIndex": 2
+    },
+    {
+      "type": "element",
+      "elementContent": "🏆",
+      "x": 0.82,
+      "y": 0.22,
+      "fontSize": 80,
+      "opacity": 0.6,
+      "zIndex": 1
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1.05,
+    "contrast": 1.1,
+    "saturation": 1.15,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

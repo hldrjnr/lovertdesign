@@ -1,0 +1,115 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "Post — Devlog Update",
+  "category": "Instagram",
+  "icon": "📝",
+  "theme": "Game Dev — Devlog",
+  "template": {
+    "id": "instagram-post",
+    "name": "Instagram Post",
+    "width": 1080,
+    "height": 1080,
+    "platform": "Instagram"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(160deg, #0a0a0a 0%, #1a1a2e 50%, #0a0a0a 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "devlog-card",
+      "vector": {
+        "shape": "rounded-rect",
+        "color": "#1e293b",
+        "fillGradient": "linear-gradient(135deg, #1e293b, #0f172a)",
+        "strokeColor": "#10B981",
+        "strokeWidth": 2,
+        "filled": true,
+        "cornerRadius": 30
+      },
+      "x": 0.08,
+      "y": 0.15,
+      "width": 0.84,
+      "height": 0.72,
+      "opacity": 0.9,
+      "zIndex": 0
+    },
+    {
+      "type": "text",
+      "text": "DEVLOG",
+      "font": "Impact",
+      "fontSize": 50,
+      "color": "#10B981",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 12,
+      "textTransform": "uppercase",
+      "x": 0.5,
+      "y": 0.2,
+      "width": 0.5,
+      "height": 0.06,
+      "shadow": { "color": "#10B981", "blur": 12, "offsetX": 0, "offsetY": 0 },
+      "zIndex": 4
+    },
+    {
+      "type": "text",
+      "text": "#12",
+      "font": "Arial",
+      "fontSize": 100,
+      "color": "#FFFFFF",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 4,
+      "x": 0.5,
+      "y": 0.38,
+      "width": 0.4,
+      "height": 0.12,
+      "shadow": { "color": "#000000", "blur": 10, "offsetX": 0, "offsetY": 4 },
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "Procedural Dungeon Generation",
+      "font": "Arial",
+      "fontSize": 30,
+      "color": "#94A3B8",
+      "textAlign": "center",
+      "fontWeight": 600,
+      "letterSpacing": 3,
+      "x": 0.5,
+      "y": 0.56,
+      "width": 0.65,
+      "height": 0.05,
+      "zIndex": 2
+    },
+    {
+      "type": "text",
+      "text": "Link in bio for full video",
+      "font": "Arial",
+      "fontSize": 22,
+      "color": "#475569",
+      "textAlign": "center",
+      "fontWeight": 400,
+      "letterSpacing": 2,
+      "x": 0.5,
+      "y": 0.65,
+      "width": 0.45,
+      "height": 0.04,
+      "zIndex": 1
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1,
+    "contrast": 1.08,
+    "saturation": 1.1,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}

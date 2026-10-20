@@ -1,0 +1,121 @@
+{
+  "type": "template",
+  "version": 2,
+  "name": "YouTube — Shader Art",
+  "category": "YouTube",
+  "icon": "🌈",
+  "theme": "3D / Shader — Art",
+  "template": {
+    "id": "youtube",
+    "name": "YouTube",
+    "width": 1920,
+    "height": 1080,
+    "platform": "YouTube"
+  },
+  "background": {
+    "type": "gradient",
+    "gradient": "linear-gradient(160deg, #0a0a0a 0%, #0a0a2e 35%, #1a0a2e 65%, #0a0a0a 100%)",
+    "brightness": 1,
+    "blur": 0,
+    "contrast": 1,
+    "saturation": 1
+  },
+  "layers": [
+    {
+      "type": "vector",
+      "id": "shader-glow-1",
+      "vector": {
+        "shape": "circle",
+        "color": "#FF00FF",
+        "fillGradient": "radial-gradient(circle, #FF00FF20, transparent)",
+        "strokeWidth": 0,
+        "filled": true
+      },
+      "x": 0.15,
+      "y": 0.15,
+      "width": 0.3,
+      "height": 0.3,
+      "opacity": 0.2,
+      "blur": 8,
+      "zIndex": 0
+    },
+    {
+      "type": "vector",
+      "id": "shader-glow-2",
+      "vector": {
+        "shape": "circle",
+        "color": "#00FFFF",
+        "fillGradient": "radial-gradient(circle, #00FFFF20, transparent)",
+        "strokeWidth": 0,
+        "filled": true
+      },
+      "x": 0.55,
+      "y": 0.5,
+      "width": 0.3,
+      "height": 0.3,
+      "opacity": 0.15,
+      "blur": 8,
+      "zIndex": 0
+    },
+    {
+      "type": "text",
+      "text": "SHADER",
+      "font": "Impact",
+      "fontSize": 140,
+      "color": "#FFFFFF",
+      "textGradient": "linear-gradient(180deg, #FF00FF 0%, #00FFFF 100%)",
+      "textAlign": "center",
+      "fontWeight": 900,
+      "letterSpacing": 12,
+      "textTransform": "uppercase",
+      "lineHeight": 0.88,
+      "x": 0.5,
+      "y": 0.35,
+      "width": 0.65,
+      "height": 0.16,
+      "shadow": { "color": "#FF00FF", "blur": 28, "offsetX": 0, "offsetY": 0 },
+      "outline": { "color": "#0a0a0a", "width": 5 },
+      "zIndex": 4
+    },
+    {
+      "type": "text",
+      "text": "ART PROGRAMMING",
+      "font": "Arial",
+      "fontSize": 32,
+      "color": "#00FFFF",
+      "textAlign": "center",
+      "fontWeight": 700,
+      "letterSpacing": 10,
+      "textTransform": "uppercase",
+      "x": 0.5,
+      "y": 0.53,
+      "width": 0.5,
+      "height": 0.04,
+      "shadow": { "color": "#000000", "blur": 8, "offsetX": 0, "offsetY": 2 },
+      "zIndex": 3
+    },
+    {
+      "type": "text",
+      "text": "Procedural • Math • Visual",
+      "font": "Arial",
+      "fontSize": 24,
+      "color": "#64748B",
+      "textAlign": "center",
+      "fontWeight": 400,
+      "letterSpacing": 4,
+      "x": 0.5,
+      "y": 0.61,
+      "width": 0.5,
+      "height": 0.03,
+      "zIndex": 2
+    }
+  ],
+  "globalEffects": {
+    "brightness": 1.05,
+    "contrast": 1.1,
+    "saturation": 1.2,
+    "blur": 0,
+    "sepia": 0,
+    "hueRotate": 0
+  }
+}
