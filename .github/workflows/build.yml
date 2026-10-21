@@ -92,6 +92,8 @@ jobs:
           LICENSE_XOR_KEY: ${{ secrets.LICENSE_XOR_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
+          # O projeto usa pnpm; ser explícito evita deteção errada de lockfiles.
+          tauriScript: pnpm tauri
           args: --bundles ${{ matrix.bundles }}
 
       # ---------------------------------------------------------------------
